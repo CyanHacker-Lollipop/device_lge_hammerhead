@@ -3,6 +3,12 @@ TARGET_SCREEN_HEIGHT := 1920
 TARGET_SCREEN_WIDTH := 1080
 TARGET_BOOTANIMATION_HALF_RES := true
 
+# Sabermod configs
+TARGET_SM_AND := 4.8
+TARGET_SM_KERNEL := 4.8
+TARGET_LIB_VERSION := 4.8
+ENABLE_PTHREAD := true
+
 # Inherit some common CH stuff.
 $(call inherit-product, vendor/ch/config/common_full_phone.mk)
 
